@@ -1,0 +1,421 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 100%
+    /* sử dụng 100% kích thước của trình duyệt */
+}
+
+/* 1em = 16px */
+
+h1 {
+    font-size: 1.4375em;
+}
+
+h3 {
+    font-size: 1.3125em;
+}
+
+header {
+    font-weight: bold;
+    color: #fff;
+    background-image: url('/img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 40px 100px 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+header h1 {
+    margin-top: 100px;
+}
+
+/* > con trực tiếp */
+
+header > h3 {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    /*    text-decoration-color: red;*/
+}
+
+#main_nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+#main_nav {
+    font-weight: normal;
+}
+
+.link_button {
+    border: 1px solid #6ac4bc;
+    background-color: #6ac4bc;
+    color: #000;
+    padding: 5px;
+}
+
+.link_button:hover {
+    text-decoration: none;
+    border-color: #ccc;
+}
+
+/*introme*/
+
+#intro_me {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#intro_me a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#intro_me > img {
+    height: 150px;
+    border-radius: 50%;
+    /*
+    display: inline-block;
+    vertical-align: middle;
+*/
+}
+
+#intro_me > div,
+#intro_me > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*Format for my_service section */
+
+#my_service {
+    margin-bottom: 20px;
+}
+
+#my_service h2 {
+    text-align: center;
+    background-image: url('/img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    font-size: 1.875em;
+    line-height: 130px;
+}
+
+.project_index {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.project_index li {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.project_index img {
+    height: 150px;
+    vertical-align: middle;
+}
+
+.project_index ul {
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+.project_index > div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer i {
+    padding-left: 25px;
+}
+
+#facebook {
+    color: blue
+}
+
+#google {
+    color: red;
+}
+
+#twitter {
+    color: aqua;
+}
+
+/* HTML My Experience 174 - 250 */
+
+#work_table {
+    border: 1px solid blue;
+    margin: 50px auto;
+    border-spacing: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#work_table thead tr th {
+    border-bottom: 2px solid blue;
+    padding: 10px;
+    background: blue;
+}
+
+#work_table thead tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+#work_table thead tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+#work_table tbody tr td {
+    padding: 10px;
+}
+
+#work_table tbody tr:nth-child(even) {
+    background-color: azure;
+}
+
+#work_table tbody tr:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+#work_table tbody tr:hover {
+    background-color: burlywood;
+    color: red;
+}
+
+#work_table tfoot td {
+    background-color: burlywood;
+    text-align: center;
+}
+
+/* project_table */
+
+#project_table {
+    margin: 50px auto;
+    border-spacing: 20px 0;
+
+}
+
+#project_table thead tr th {
+    border-bottom: 2px solid blueviolet;
+    text-align: left;
+    color: blue;
+    padding: 10px;
+}
+
+#project_table tbody tr td {
+    padding: 10px;
+}
+
+#project_table tbody tr td:nth-child(even) {
+    background-color: aquamarine;
+}
+
+#project_table tbody tr td:nth-child(odd) {
+    background-color: azure;
+}
+
+#project_table tfoot tr td {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+/* HTML Project 250-306 */
+#left_section {
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+#my_service:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.project_items {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 2px 2px #ccc;
+}
+
+.project_items li {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.project_items img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.project_items ul {
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+.project_items > div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+#right_section {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#right_section h1 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+#right_section ul {
+    list-style-type: none;
+    text-indent: 25px;
+}
+
+
+/* HTML Contact */
+#contact_form {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 12px #ccc;
+    position: relative;
+}
+fieldset {
+    border: 0;
+}
+legend {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+label.light {
+    display: inline;
+    margin-right: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+textarea,
+select {
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background: #e8eeef;
+    margin-bottom: 30px;
+}
+input[type='radio'],
+input[type='checkbox'] {
+    margin-bottom: 30px;
+}
+button[type='submit'],
+button[type='reset'] {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button[type='submit'] {
+    color: #fff;
+    background: #4bc970;
+    border: 1px solid #3ac162;
+}
+button[type='reset'] {
+    color: #3ac162;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+}
+
+.number {
+    background: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+address {
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -60px;
+}
+#fixed_link {
+    width: 150px;
+    position: fixed;
+    top: 400px;
+    left: 0;
+}
+#fixed_link p a {
+    display: block;
+    padding: 10px; 
+    padding-left: 25px;
+}
+#fixed_link p a:hover {
+    text-decoration: none; 
+    /* bo gach chan duoi link (the a) */
+}
+#fixed_link p a:nth-child(1) {
+    background-color: bisque;
+    color: blue;
+}
+#fixed_link p a:nth-child(2) {
+    background-color: cadetblue;
+    color: red;
+}
+#fixed_link p a:nth-child(3) {
+    background-color: azure;
+    color: aqua;
+}

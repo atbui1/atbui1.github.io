@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="porfolio, web designer, web developer, backend, frontend, software">
+    <title>Home</title>
+    <!--
+    <style>
+        h3{
+            color: blue;
+        }
+    </style>
+-->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="experience.html">My Experience</a></li>
+                <li><a href="contact.html" target="_blank" class="link_button">Contact Me</a></li>
+            </ul>
+        </nav>
+        <h1>CONTACT ME</h1>
+        <h3>SELECT YOUR CONVENIENT WAY TO CONTACT ME</h3>
+    </header>
+    <!--Main body content -->
+    <section id="contact_wrapper">
+        <section id="contact_form">
+            <form action="/" method="post" autocomplete="off">
+                <fieldset id="basic_info">
+                    <legend>
+                        <span class="number">1</span>
+                        Basic Info
+                    </legend>
+                    <label for="name">Your name:</label>
+                    <input required type="text" id="name" placeholder="Input your name" maxlength="30">
+                    <label for="email">Email</label>
+                    <input required type="email" id="email" placeholder="Email@adress.xxx">
+                    
+                    <label>You are:</label>
+                    <input checked type="radio" name="ten_giong" id="individual">
+                    <label for="individual" class="light">Individual</label>
+                    <input type="radio" name="ten_giong" id="corporate">
+                    <label for="corporate" class="light">Corporate</label>
+
+                    <label for="why_contact">Why do you contact me?</label>
+                    <textarea id="why_contact" cols="50" rows="10"></textarea>
+                </fieldset>
+                <fieldset id="about_you">
+                    <legend>
+                        <span class="number">2</span>
+                        About you
+                    </legend>
+                    <label>What is your website?</label>
+                    <input type="url">
+                    <label>what are areas of your project?</label>
+                    <input type="checkbox"> <label class="light">Health Care</label>
+                    <input type="checkbox"> <label class="light">Finance</label>
+                    <input type="checkbox"> <label class="light">Education</label>
+                    <label>How many people in your company?</label>
+                    <select>
+                        <option selected>1 - 10</option>
+                        <option>11 - 20</option>
+                        <option>21 - 50</option>
+                        <option>51 - 100</option>
+                        <option>More than 100</option>
+                    </select>
+                    <label>what is your role?</label>
+                    <select>
+                        <optGroup label="web">
+                            <option>Web Developer</option>
+                            <option>Web Designer</option>
+                            <option>Full-Stack Web Developer</option>
+                        </optGroup>
+                        <optgroup label="Architect">
+                            <option>Software Architect</option>
+                            <option>Database Architect</option>
+                            <option>System Architect</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <button type="submit">Contact me</button>
+                <button type="reset">Clear</button>
+            </form>
+            <address>
+                <span><i class="fa fa-phone"> 0123-456-789</i></span>
+            </address>
+        </section>
+        <div id="fixed_link">
+            <p>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa fa-google-plus"></i> Google+</a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+
+        </p>
+        </div>
+    </section>
+
+    <footer>
+        <!--p: paragraph -->
+        <p>
+            <a href="https://www.facebook.com/" target="_blank" id="facebook"><i class="fa fa-facebook-square"></i> Facebook</a>
+            <a href="https://www.google.com/" target="_blank" id="google"><i class="fa fa-google-plus"></i> Google+</a>
+            <a href="https://twitter.com/" target="_blank" id="twitter"><i class="fa fa-twitter"></i> Twitter</a>
+
+        </p>
+        <p>
+            &copy;2018-Ahihi
+        </p>
+    </footer>
+</body>
+
+</html>
