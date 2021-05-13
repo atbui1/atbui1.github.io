@@ -1,0 +1,552 @@
+/*
+body {
+            background-image: url(hinh1/20.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+*/
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+    box-sizing: border-box;
+/*    border: 1px solid black;*/
+}
+
+#header1 {
+    width: 15%;
+    height: 100%;
+    background-color: pink;
+    float: left;
+    box-sizing: border-box;
+}
+
+#header2 {
+    width: 15%;
+    height: 100%;
+    background-color: pink;
+    float: left;
+    box-sizing: border-box;
+}
+
+#header3 {
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    box-sizing: border-box;
+}
+
+#chuchay {
+    font-size: 40px;
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#chuchay:hover {
+    cursor: pointer;
+}
+
+#tenshop {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+/*
+#header input {
+    width: 400px;
+    height: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+*/
+
+/* thanh menu */
+
+#themenu {
+    width: 100%;
+    height: 50px;
+    /*    background-color: yellow;*/
+    float: left;
+    box-sizing: border-box;
+/*    border: 1px solid red;*/
+}
+
+.menu {
+    width: 100%;
+    height: 40px;
+    /*    background-color: pink;*/
+    float: left;
+    box-sizing: border-box;
+}
+
+.menu > li {
+    width: 13%;
+    height: 30px;
+    float: left;
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    /*    background-color: white;*/
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: black;
+    box-shadow: 3px 3px 3px rgba(89, 0, 0, 0.5);
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+/*
+.menu > li:hover {
+    background-color: bisque;
+    color: lime;
+}
+*/
+
+.submenu {
+    /*    background-color: aqua;*/
+    display: none;
+    box-sizing: border-box;
+}
+
+.submenu > li {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    box-shadow: 3px 3px 3px rgba(89, 0, 0, 0.5);
+    margin-left: -40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.menu > li:hover ul.submenu {
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+/*Xóa gạch chân menu*/
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu > li:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white
+}
+
+
+.menu > li:hover > a {
+    color: black;
+}
+
+.submenu > li:hover > a {
+    color: black;
+}
+
+/*
+.menu > li:hover {
+    background-color: white;
+}
+*/
+
+.submenu > li:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*xóa gạch chân ở submenu*/
+
+.submenu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.submenu > li > a:hover {
+    background-color: white;
+    color: black;
+}
+
+#khung {
+    width: 80%;
+    margin-left: 10%;
+    height: 800px;
+    float: left;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+#thongtin {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    float: left;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#thongtin > p{ margin-left: 15px;}
+#thongtin > h1{margin-left: 15px;}
+
+#lienhe {
+    width: 30%;
+    height: 100px;
+    float: right;
+    margin-top: -100px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+#lienhe img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+#lienhe img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/*css phần javascript*/
+
+.abc {
+    width: 300px;
+    height: 440px;
+    border: 0px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 68px;
+}
+
+.abc img {
+    width: 300px;
+    height: 350px;
+}
+
+.abc p {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    height: 0px;
+    opacity: 1;
+    background-color: white;
+    transition: all 1s;
+}
+
+.abc:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.abc:hover p {
+    height: 200px;
+    margin-top: -110px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+    opacity: 1;
+    font-size: 30px;
+    color: black;
+    /*
+    border: 1px solid black;
+    box-sizing: border-box;
+*/
+}
+
+.abc a {
+    color: red;
+    text-decoration: none;
+/*
+    border: 1px solid black;
+    background-color: dimgray;
+*/
+}
+
+/* CSS xem chi tiết sản phẩm*/
+
+#headersp {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+
+#tensp {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#kengang1 {
+    width: 50%;
+    height: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+#showhinh {
+    width: 100%;
+    height: 700px;
+    float: left;
+    /*    background-color: yellow;*/
+}
+
+#divtrai {
+    width: 55%;
+    height: 600px;
+    float: left;
+    /*    background-color: pink;*/
+}
+
+#divhinhnho {
+    width: 18%;
+    height: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    /*    background-color: green;*/
+}
+
+.hinhnho {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.hinhnho:hover {
+    border: 1px solid red;
+}
+
+#divhinhto > img {
+    width: 440px;
+    height: 500px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+#divphai {
+    width: 45%;
+    height: 600px;
+    float: right;
+    background-color: white;
+}
+
+#tensp2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#kengang2 {
+    width: 80%;
+    height: 3px;
+    margin-top: -20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+#gia {
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#danhsachchitiet > li {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+}
+
+/*nút mua*/
+
+#mua1 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(220, 216, 0);
+    color: aliceblue;
+    float: left;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 3px 3px 3px black;
+    font-size: 25px;
+}
+#mua1:hover{cursor: pointer;}
+#mua2:hover{cursor: pointer;}
+
+#mua2 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(148, 170, 214);
+    color: aliceblue;
+    float: left;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 3px 3px 3px black;
+    font-size: 25px;
+}
+
+/* video */
+
+#divtieudevideo {
+    width: 90%;
+    height: 90px;
+    /*    background-color: skyblue;*/
+    float: left;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 40px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.video {
+    width: 100%;
+    height: 590px;
+    float: left;
+/*    border: 1px solid black;*/
+    box-sizing: border-box;
+    /*    background-color: aqua;*/
+}
+
+/*
+#video {
+    margin-left: 60px;
+}
+*/
+
+/* Chính sách bảo hành - đổi trả*/
+
+#doitra {
+    width: 99%;
+    height: 1200px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#doitra1 {
+    width: 95%;
+    height: 100px;
+    float: left;
+}
+
+#pdoitra1 {
+    width: 95%;
+    height: 50px;
+    float: left;
+    font-size: 50px;
+    margin-left: 80px;
+    box-sizing: border-box;
+}
+
+#doitra2 {
+    width: 99%;
+    height: 1100px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.doitra {
+    width: 99%;
+    font-size: 30px;
+}
+
+.doitra > li {
+    width: 98%;
+    height: 40px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+/* body */
+
+/*
+.tong {
+    width: 100%;
+    float: left;
+    border: 2px solid black;
+    margin-left: 10%;
+}
+*/
+
+#tongall {
+    width: 99%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+/* anh truot */
+
+#anhtruot {
+    width: 1000px;
+    height: 400px;
+    float: left;
+    margin-left: 95px;
+}
+
+#sanphambanchay {
+    width: 60%;
+    height: 50px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+    margin-left: 110px;
+}
+
