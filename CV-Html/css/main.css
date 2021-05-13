@@ -1,0 +1,140 @@
+
+/* main all body*/
+#main-all-body {
+    width: 100%;
+    margin-top: 20px;
+}
+#main-body {
+    width: 60%;
+    margin-left: 20%;
+}
+/*body left*/
+#main-body-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#main-body-left div {
+    text-align: center;
+    
+}
+.element-title {
+    font-size: 20px;
+    padding-left: 10px;
+}
+#main-body-left div p {
+    font-size: 25px;
+}
+#main-body-left div img {
+    width: 100px;
+    height: 100px;
+}
+/*body left menu*/
+#body-left-element-intro {
+    padding-left: 10px;
+}
+#body-left-element-intro li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+#body-left-element-intro li i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 5px;
+    background-color: aliceblue;
+    color: rebeccapurple;
+}
+#body-left-element-intro li label {
+    font-size: 20px;
+    word-break: break-all;
+}
+#body-left-element-intro li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    word-break: break-all;
+    font-size: 20px;
+    color: black;
+}
+
+#intro-profile {
+    text-indent: 25px;
+    padding-left: 10px;
+}
+/*SKILLS*/
+#body-left-element-skill {
+    padding-left: 10px;
+}
+#body-left-element-skill li {
+    list-style: none;
+}
+#body-left-element-skill li label {
+    display: block;
+}
+/*INTERESTS*/
+#body-left-element-interests {
+    list-style: circle;
+}
+/*body right*/
+#main-body-right {
+    float: left;
+    width: 70%;
+}
+
+.elemet-content ul li i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.elemet-content ul:first-child {
+    list-style: none;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.element-content-child {
+    list-style: none;
+    display: flow-root;
+    font-size: 16px;
+}
+/*element p in elemet-content*/
+.elemet-content p {
+    margin-left: 40px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.element-content-child li ::after {
+    display: block;
+}
+
+.element-content-child li:first-child {
+    float: left;
+}
+.element-content-child li:last-child {
+    float: right;
+}
+/*element-project-link*/
+#element-project-link {
+    font-size: 15px;
+    height: 150px;
+}
+#element-project-link a {
+    text-decoration: none;
+    color: black;
+}
+.element-list-info {
+    padding-left: 60px;
+    list-style: circle;
+}
